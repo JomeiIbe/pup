@@ -1,0 +1,165 @@
+:focus{
+    color: var(--primary-color);
+}
+
+ul{
+    padding-left: 0 !important;
+}
+
+img{
+    display: block !important;
+     height: 100% !important;
+ }
+
+.overlay{
+    position: fixed; top: 0;
+    background: rgba(99, 50, 1, 0.349);
+    height: 100%; width: 100vw;
+    transition: .6s ease-in-out;
+    opacity: 0; visibility: hidden;
+    z-index: 777;
+
+}.overlay.active{ opacity: 1; visibility: visible;}
+
+
+
+ .j-bg-cover{
+  /* background-position: cover; */
+  background-repeat: no-repeat;
+ }
+
+.j-btn {
+    display: inline-block;
+    padding: 15px 30px !important;
+    border: 1px solid var(--primary-color);
+    border-radius: 40px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+
+.j-btn:hover {
+    background-color: transparent;
+    border: 1px solid var(--dark-color);
+    color: var(--dark-color);    
+}
+
+
+section{
+    margin-bottom: 118px !important;
+}
+#sub-div {
+    margin-top: 78px !important;
+    
+}
+
+ /* TODO SET A FONT SIZE AND COLOR */
+ .sec-title1 {
+   font-size: var(--banner-font);
+   font-weight: 800;
+   margin-bottom: 2rem;
+   -webkit-background-clip: text !important;
+   -webkit-text-fill-color: transparent !important;
+   opacity: 0.3;
+   color: transparent;
+   font-family: 'Playball', cursive;
+   -webkit-text-stroke: 1px black;}
+   
+   
+.sec-title2 {
+    font-family: 'Playball', cursive;
+   font-size: 2.5rem;
+   font-weight: 700;
+   transform: translateY(-10px); 
+}
+.priColor{
+    color: var(--primary-color);
+}
+
+.why-us {
+    margin-top: 78px !important;
+
+}
+
+.heading-text{ color: var(--primary-color-varient);
+               font-size: 2rem; margin-bottom: 89px;}
+
+ :root {
+    --primary-color: orange;
+    --secondary-color: #f72585;
+    --white-color: #fff;
+    --secondary-white-color: rgb(228, 226, 226);
+    --light-color: rgba(var(#fff, 0.7));
+    --non-color: #9c8bb8;
+    --success-color: #54eb72;
+    --container-lg: 93%;
+    --container-md: 97%;
+    --gradientBackground: linear-gradient(-10deg, #09236b, #4cc9f0);
+    --transition: .4s ease all;
+    --box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.13);
+
+
+    --body-font: 1.3rem;
+    --header-font: 2.2rem;
+    --title-font: 3.2rem;
+    --banner-font: 3.7rem;
+    --banner-font2: 5rem;
+    --tag-font: 1.1rem;
+
+
+    --poppins: 'Poppins', sans-serif;
+    --fancy: 'CHOOSE A FACNY FONT';
+    --banner-ff: 'CHOOSE A Banner FONT';
+
+
+    --fw-7: 700;
+    --fw-5: 500;
+}
+
+.body-font {
+    font-size: var(--body-font);}
+
+.title-font {
+    font-size: var(--title-font);}
+
+.header-font {
+    font-size: var(--header-font);}
+
+
+.span-echo {
+    animation: echo 1.5s ease-out infinite;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+
+    
+ :root {
+    
+    --body-font: 1rem;
+    --header-font: 1.5rem;
+    --title-font: 2.2rem;
+    --banner-font: 2.8rem;
+    
+    --tag-font: 1rem;
+
+}
+}
+  
+
+@media screen and (max-width: 500px) {
+
+    
+    :root {
+   
+       --body-font: 1rem;
+       --header-font: 1.5rem;
+       --title-font: 31px;
+       --banner-font: 2rem;
+       --banner-font2: 2.1rem !important;
+       --tag-font: 1rem;
+   
+   }
+}

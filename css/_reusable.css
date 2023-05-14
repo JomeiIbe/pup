@@ -1,0 +1,46 @@
+<!-- ==
+@remove or customize to a big image of cute dog o someone holding a cute white dog
+ FLOAT AUTOMOBILE REMOVE
+  -->
+
+ <section class="projects " id="Float-house">
+ <div class="container"> 
+   <div class="text-center">
+     <h4 class="gi">Homely</h4>
+     <h4 class="gi">counter numbers here just 2</h4>
+   </div>
+
+   <div class="float-image  mx-auto">
+   <img src="./images/car_1.png" class="img-fluid position-realative" />
+   
+   <style>
+     .projects {
+       background: url('./images/hero4.jpg');
+       background-position: bottom;
+       /* object-fit: contain; */
+       background-size: cover;
+     }
+     /* @@ Powerclipped text */
+     .gi {
+       font-size: 6.4rem;
+       font-weight: var(--fw-7);
+       color: transparent;
+       -webkit-text-stroke: 1px black;
+       /* background: url('./images/hero4.jpg'); */
+       background: url('./images/hero2.jpg');
+       background-position: bottom;
+       background-size: fill;
+       object-fit: contain;
+       -webkit-background-clip: text;
+
+     }
+   </style>
+
+
+   <div class="float_img_icon">
+     <img src="./images/pr-icon2.png" class="img-fluid">
+   </div>
+
+   </div>
+ </div>
+ </section>
